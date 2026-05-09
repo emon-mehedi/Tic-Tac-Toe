@@ -2,7 +2,6 @@ let boxes=document.querySelectorAll(".box");
 let turnX=true;
 let resetbtn=document.querySelector(".reset");
 let newGame=document.querySelector(".new-game");
-let modebtn=document.querySelector(".mode");
 
 
 winPatterns=[
