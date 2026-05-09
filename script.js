@@ -38,7 +38,7 @@ let checkWinner=()=>{
     let val2= boxes[pattern[1]].innerText;
     let val3= boxes[pattern[2]].innerText;
 
-    if (val1!="" && val2!="" && val3){
+    if (val1!="" && val2!="" && val3!=1){
       if(val1===val2 && val2===val3){
         document.querySelector(".winner").classList.remove("hide");
         document.querySelector(".winner").innerText=`Player${val1} Wins!`;
