@@ -18,7 +18,6 @@ winPatterns=[
 
 boxes.forEach((box)=>{
   box.addEventListener("click",()=>{
-    console.log("box was clicked");
     if(turnX){
       box.innerText="X";
       turnX=false;
